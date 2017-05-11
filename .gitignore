@@ -1,3 +1,7 @@
 .wttd
 *.sqlite3
 __pycache__
+.env
+.idea
+.DS_Store
+*pyc
