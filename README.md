@@ -4,6 +4,10 @@ This project was developed in [Welcome to the Django](http://welcometothedjango.
 
 This project consists in system to manage events, ordered by a client.
 
+## Demo
+
+Here's a [link](https://eventex-luiswitz.herokuapp.com/) to my version of Eventex
+
 ## Development
 
 Clone the repository
