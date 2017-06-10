@@ -17,21 +17,36 @@ cd wttd
 ```
 
 Create a virtual environment
-```
+```console
 python -m venv .wttd
 ```
 
 Enable virtual environment
-```
+```console
 source .wttd/bin/activate
 ```
 
-Config manage.py
+Install dependencies
+```console
+pip install -r requirements.txt
 ```
+
+Copy env-sample to .env
+```console
+cp contrib/env-sample .env
+```
+
+Config manage.py
+```console
 alias manage='python $VIRTUAL_ENV/../manage.py'
 ```
 
-Run server
+Run tests
+```console
+manage test
 ```
+
+Run server
+```console
 manage runserver
 ```
