@@ -1,5 +1,7 @@
 # Eventex
 
+[![Build Status](https://travis-ci.org/luiswitz/eventex.svg?branch=master)](https://travis-ci.org/luiswitz/eventex)
+
 This project was developed in [Welcome to the Django](http://welcometothedjango.com.br) course
 
 This project consists in system to manage events, ordered by a client.
