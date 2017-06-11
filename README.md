@@ -30,7 +30,7 @@ source .wttd/bin/activate
 
 Install dependencies
 ```console
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
 
 Copy env-sample to .env
