@@ -10,3 +10,17 @@ class TalkListGet(TestCase):
 
     def test_template(self):
         self.assertTemplateUsed(self.resp, 'core/talk_list.html')
+
+    def test_html(self):
+        contents = [
+            (2, 'Título da Palestra'),
+            (1, '10:00'),
+            (1, '13:00'),
+            (2, '/palestrantes/henrique-bastos/'),
+            (2, 'Henrique Bastos'),
+            (2, 'Descrição da Palestra.'),
+        ]
+
+        for count, expected in contents:
+            with self.subTest():
+                self.assertContains(self.resp, expected, count)
